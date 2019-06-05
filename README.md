@@ -1,6 +1,8 @@
 # React Native Bunny App
 
-Building a simple react native to learn a little and have a bit of fun
+Building a simple react native to learn a little and have a bit of fun.
+
+Built also using Expo.
 
 ## Setup
 
