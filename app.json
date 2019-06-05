@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "React Native Ex",
-    "slug": "reactNativeEx",
+    "name": "React Native Bunny App",
+    "slug": "react-native-bunny-app",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -10,9 +10,9 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/bunny_icon.jpg",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/home_bunny.gif",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,7 +23,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.noelwilson.bunnyapp"
+    },
+    "android": {
+      "package": "com.noelwilson.bunnyapp"
     }
   }
 }
